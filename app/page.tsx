@@ -12,12 +12,18 @@ export default function Home() {
 
   return (
     <main className="flex flex-col p-24 text-center">
-      <section className="flex flex-col justify-center w-full border">
-        <h1 className="text-5xl bg-gray-500">Beau Elliott</h1>
+      <section className="flex flex-col justify-center w-full border bg-gradient-to-br from-green-900 to-transparent">
+        <h1 className="text-5xl">Beau Elliott</h1>
         <h4>Full Stack Developer</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          neque delectus sunt tenetur ab totam voluptas odio expedita provident
+          illum, eum exercitationem sequi ipsam, cumque itaque laudantium.
+          Vitae, quidem possimus?
+        </p>
       </section>
       <section>Info</section>
-      <section>
+      <section className="project-container">
         {projects.map((item) => (
           <Project key={item.id} {...item} />
         ))}

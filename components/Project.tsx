@@ -4,7 +4,7 @@ const Project = ({ name, tech, libraries }) => {
   return (
     <div>
       <p>{name}</p>
-      {tech.map((item) => (
+      {tech.map((item: string) => (
         <span key={item} className="p-2">
           {item}
         </span>

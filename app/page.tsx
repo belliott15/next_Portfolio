@@ -2,6 +2,7 @@
 import Project from "@/components/Project";
 import { useEffect, useState } from "react";
 import projectData from "../data.jsx";
+import Image from "next/image.js";
 
 export default function Home() {
   const [projects, setProjects] = useState(projectData);
@@ -12,7 +13,7 @@ export default function Home() {
 
   return (
     <main className="flex flex-col p-24 text-center">
-      <section className="flex flex-col justify-center w-full border bg-gradient-to-br from-green-900 to-transparent">
+      <section className="flex flex-col justify-center w-full">
         <h1 className="text-5xl">Beau Elliott</h1>
         <h4>Full Stack Developer</h4>
         <p>
@@ -21,6 +22,13 @@ export default function Home() {
           illum, eum exercitationem sequi ipsam, cumque itaque laudantium.
           Vitae, quidem possimus?
         </p>
+        <Image
+          src="/images/card.png"
+          alt="rotating playing card"
+          width={400}
+          height={600}
+          className="playing-card"
+        />
       </section>
       <section>Info</section>
       <section className="project-container">

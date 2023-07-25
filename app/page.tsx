@@ -22,13 +22,6 @@ export default function Home() {
           illum, eum exercitationem sequi ipsam, cumque itaque laudantium.
           Vitae, quidem possimus?
         </p>
-        <Image
-          src="/images/card.png"
-          alt="rotating playing card"
-          width={400}
-          height={600}
-          className="playing-card"
-        />
       </section>
       <section>Info</section>
       <section className="project-container">

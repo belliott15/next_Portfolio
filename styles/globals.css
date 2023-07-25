@@ -18,29 +18,10 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: radial-gradient(rgb(51, 0, 51), rgb(0, 0, 0));
+  background: radial-gradient(rgb(5, 81, 36), rgb(0, 0, 0));
 }
 
 .project-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-}
-
-.playing-card {
-  position: absolute;
-  top: 20%;
-  left: 37%;
-  animation: spin infinite 3s;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotateX(60);
-  }
-  50% {
-    transform: rotate(360);
-  }
-  100% {
-    transform: rotate(0);
-  }
 }

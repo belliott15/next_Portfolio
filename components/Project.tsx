@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = ({ name, tech, libraries }) => {
   return (
-    <div className="h-96 bg-gradient-to-r from-orange-800 to-transparent m-5 rounded-xl flex-col justify-center">
+    <div className="h-96 bg-gradient-to-bl from-orange-800 to-transparent m-5 rounded-xl flex-col justify-center">
       <p>{name}</p>
       <div className="h-56 w-56 border">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aspernatur,

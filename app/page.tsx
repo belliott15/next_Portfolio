@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <main className="flex flex-col p-24 text-center">
-      <section className="flex flex-col justify-center w-full">
+      <section className="flex flex-col justify-center w-full ">
         <h1 className="text-5xl">Beau Elliott</h1>
         <h4>Full Stack Developer</h4>
         <p>

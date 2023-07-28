@@ -7,13 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "card-image": "url('/images/card.png')",
-      },
       colors: {
-        primary: "330066",
-        font: "D2B48C",
-        secondary: "660066",
+        wheat: "rgb(242, 218, 172)",
+        sandyBrown: "rgb(241, 166, 101)",
+        orange: "rgb(240, 108, 50)",
+        cambridgeBlue: "rgb(134, 173, 165)",
+        darkCyan: "rgb(39, 140, 151)",
+        cerulean: "rgb(22, 109, 143)",
+        oxfordBlue: "rgb(2, 36, 82)",
       },
     },
     screens: {

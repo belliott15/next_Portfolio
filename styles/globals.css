@@ -17,11 +17,4 @@
 }
 
 body {
-  color: rgb(22, 109, 143);
-  background: linear-gradient(wheat 10%, sandyBrown);
-}
-
-.project-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
 }

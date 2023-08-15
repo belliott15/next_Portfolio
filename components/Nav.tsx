@@ -2,13 +2,16 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <nav className="flex justify-between">
+    <div className="flex justify-between ml-10">
       <h1>logo</h1>
-      <p>Home</p>
-      <p>Projects</p>
-      <p>Cool Facts</p>
-      <p>contact me</p>
-    </nav>
+      <nav className="flex w-96 justify-between">
+        <a href="/">Home</a>
+        <a href="/">Skills</a>
+        <a href="/">Work</a>
+        <a href="/">Experience</a>
+        <a href="/">Contact</a>
+      </nav>
+    </div>
   );
 };
 

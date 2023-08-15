@@ -21,10 +21,9 @@ export default function RootLayout({
       <head>
         <title>Beau Elliott</title>
       </head>
-      <body className="min-h-screen flex flex-col justify-between bg-wheat">
+      <body>
         <Nav />
         {children}
-        <Footer />
       </body>
     </html>
   );

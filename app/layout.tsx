@@ -2,7 +2,6 @@ import "../styles/globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Nav from "../components/Nav";
-import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +20,7 @@ export default function RootLayout({
       <head>
         <title>Beau Elliott</title>
       </head>
-      <body>
+      <body className="flex-col">
         <Nav />
         {children}
       </body>

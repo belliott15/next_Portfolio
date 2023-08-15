@@ -1,7 +1,7 @@
 "use client";
-// import Project from "@/components/Project";
 import { useEffect, useState } from "react";
 import projectData from "../data.jsx";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const [projects, setProjects] = useState(projectData);
@@ -11,7 +11,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main>
+    <main className="flex-col justify-between p-4">
       <section>
         <div>
           <h1>Beau Elliott</h1>
@@ -22,6 +22,7 @@ export default function Home() {
       </section>
       <section>Info</section>
       <section className="project-container">Projects go here</section>
+      <Footer />
     </main>
   );
 }

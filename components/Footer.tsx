@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section className="absolute bottom-0 left-2">
+    <section className="flex">
       <a href="">Contact Me</a>
       <a>Info</a>
     </section>

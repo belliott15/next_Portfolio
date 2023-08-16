@@ -11,8 +11,8 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex-col justify-between p-4">
-      <section>
+    <main className="flex-col justify-between p-4 min-h-screen">
+      <section className="">
         <div>
           <h1>Beau Elliott</h1>
           <h4>Full Stack Developer</h4>

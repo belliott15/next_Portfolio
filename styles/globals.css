@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  height: min-content;
+}
 :root {
   --foreground-rgb: 134, 173, 165;
   --background-start-rgb: 242, 218, 172;
@@ -24,5 +27,5 @@ body {
       rgb(var(--background-end-rgb))
     )
     no-repeat;
-  height: max-content;
+  height: auto;
 }

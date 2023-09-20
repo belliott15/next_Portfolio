@@ -15,7 +15,9 @@ const Footer = () => {
           className="p-2 h-40 m-4 rounded bg-white opacity-50 text-black"
           required
         ></textarea>
-        <button className="bg-white rounded p-2 w-20">Punch It!</button>
+        <button className="bg-white rounded opacity-80 p-2 w-20">
+          Punch It!
+        </button>
       </form>
     </section>
   );
